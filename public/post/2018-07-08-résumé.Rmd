@@ -1,0 +1,10 @@
+---
+title: Résumé
+author: John-Henry
+date: '2018-07-08'
+slug: Résumé
+categories:
+  - Résumé
+tags: []
+---
+

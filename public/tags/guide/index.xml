@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guide on John-Henry Pezzuto</title>
+    <link>/tags/guide/</link>
+    <description>Recent content in Guide on John-Henry Pezzuto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/guide/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Testtesttest</title>
+      <link>/post/testtesttest/</link>
+      <pubDate>Sun, 08 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/testtesttest/</guid>
+      <description>blah blah blah blah blah</description>
+    </item>
+    
+  </channel>
+</rss>

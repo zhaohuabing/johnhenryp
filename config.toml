@@ -1,0 +1,86 @@
+baseurl = ""
+title = "John-Henry Pezzuto"
+theme = "hugo-theme-cleanwhite"
+languageCode = "en-us"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+googleAnalytics = ""
+preserveTaxonomyNames = true
+paginate = 5 #frontpage pagination
+hasCJKLanguage = true
+
+[outputs]
+home = ["HTML", "RSS", "Algolia"]
+
+[params]
+  header_image = "img/IMG_0437.jpg"
+  SEOTitle = ""
+  description = "赵化冰，程序员, 开源爱好者，生活探险家 | 这里是 赵化冰 的博客，与你一起发现更大的世界。"
+  keyword = "赵化冰, zhaohuabing, Zhaohuabing, , 赵化冰的网络日志, 赵化冰的博客, Zhaohuabing Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, Istio, Kubernetes, 微服务, Microservice"
+  slogan = "\"He's a really cool guy\""
+
+  image_404 = "img/404-bg.jpg"
+  title_404 = ":("
+
+  # leancloud storage for page view counter
+  page_view_conter = false
+  leancloud_app_id = ""
+  leancloud_app_key = ""
+
+  # algolia site search
+  algolia_search = false 
+  algolia_appId = ""
+  algolia_indexName = ""
+  algolia_apiKey = ""
+
+  # Sidebar settings
+  sidebar_about_description = "I'm interested in using social norms to understand discrimination and create widespread change. Currently, I'm Betsy Paluck's Lab Manager at Princeton University"
+  sidebar_avatar = "img/IMG_1922.jpeg"      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+  featured_tags = true 
+  featured_condition_size = 2 
+
+  # Baidu Analytics
+  ba_track_id = ""
+  
+  # We need a proxy to access Disqus api in China
+  disqus_proxy = ""
+  disqus_site = ""
+
+  [params.social]
+  rss            = true 
+  #email          = "pezzuto@uchicago.edu"
+  #facebook      = "full profile url in facebook"
+  #googleplus    = "full profile url in googleplus"
+  twitter       = "https://twitter.com/john_pezzuto"
+  #linkedin       = "full profile url in linkedin"
+  #stackoverflow  = "full profile url in stackoverflow"
+  #instagram     = "full profile url in instagram"
+  github         = "https://github.com/johnhenrypezzuto"
+  #wechat         = "link of wechat QR code image"
+  #pinterest     = "full profile url in pinterest"
+  
+  #[[params.friend_link]]
+  #title = "Linda的博客"
+  #href =  "https://zhaozhihan.com"
+
+  [[params.bookmark_link]]
+  title =  "Cal Newport"
+  href =  "http://calnewport.com/blog/"
+  [[params.bookmark_link]]
+  title = "Al Turtle"
+  href =  "http://www.alturtle.com/"
+  [[params.bookmark_link]]
+  title = "Oleg Urminsky"
+  href = "https://marginallysignificant.com/"
+
+
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[params.algolia]
+vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+params = ["categories", "tags"] 

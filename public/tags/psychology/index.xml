@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Psychology on John-Henry Pezzuto</title>
+    <link>/tags/psychology/</link>
+    <description>Recent content in Psychology on John-Henry Pezzuto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/psychology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>blah blah</title>
+      <link>/post/blah-blah/</link>
+      <pubDate>Sun, 08 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/blah-blah/</guid>
+      <description>learning more about blog down does it make sense to use two in a row john is so fun to spend time with.
+ second important point john is a really nice guy
+  Last section let’s see what htis looks like   </description>
+    </item>
+    
+    <item>
+      <title>second post</title>
+      <link>/post/second-post/</link>
+      <pubDate>Sun, 08 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/second-post/</guid>
+      <description>Hi Mom Hi John Here is some useful writing
+  </description>
+    </item>
+    
+  </channel>
+</rss>
