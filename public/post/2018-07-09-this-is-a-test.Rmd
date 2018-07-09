@@ -1,0 +1,10 @@
+---
+title: this is a test
+author: John-Henry
+date: '2018-07-09'
+slug: this-is-a-test
+categories: [blog]
+tags: []
+---
+
+# this is a test
