@@ -1,5 +1,4 @@
 baseurl = "https://johnhenryp.netlify.com/"
-relativeurls = true
 title = "John-Henry Pezzuto"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
