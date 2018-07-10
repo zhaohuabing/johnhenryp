@@ -1,11 +1,15 @@
 ---
+title: ''
+author: John-Henry
+date: '2018-07-09'
 site: blogdown:::blogdown_site
 ---
 
 
 ```{r}
-
+blogdown::hugo_build()
 file.edit(".Rprofile")
+blogdown::hugo_version()
 blogdown::build_site(local = TRUE)
 blogdown::build_site(local = FALSE)
 ```
