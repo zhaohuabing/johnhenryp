@@ -13,8 +13,8 @@
     <meta name="keyword"  content="{{ .Site.Params.keyword }}">
     <link rel="shortcut icon" href="{{ "img/faceimage.ico" | absURL }}">
     <!-- ^ edit here to change website icon "fav"-->
-    <title>{{ if .Title }}{{ .Title }}-{{ .Site.Params.SEOTitle }}{{ else }}{{ .Site.Params.SEOTitle }}{{ end }}</title>
-
+    <title>{{ if .Title }}{{ .Title }}{{ .Site.Params.SEOTitle }}{{ else }}{{ .Site.Params.SEOTitle }}{{ end }}</title>
+<!-- ^ edit here to change bar.. you can edit outside the box -->
     <link rel="canonical" href="{{ .URL | absURL }}">
 
     <link rel="stylesheet" href="{{ "css/iDisqus.min.css" | absURL }}"/>

@@ -20,9 +20,9 @@ home = ["HTML", "RSS", "Algolia"]
 [params]
   header_image = "img/IMG_0437.jpg"
   SEOTitle = ""
-  description = "赵化冰，程序员, 开源爱好者，生活探险家 | 这里是 赵化冰 的博客，与你一起发现更大的世界。"
+  description = "John-Henry Pezzuto's personal blog about productivity in everyday life"
   keyword = "John-Henry, Pezzuto, psychology, economics, productivity, organization, advice, applescript"
-  slogan = "\"He's a really cool guy\""
+  slogan = "inch by inch. row by row."
 
   image_404 = "img/404-bg.jpg"
   title_404 = ":("
