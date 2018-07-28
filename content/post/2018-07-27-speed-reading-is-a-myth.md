@@ -15,9 +15,9 @@ image: ''
 draft: no
 ---
 
-I've spent a long time thinking that if I could learn to read at a faster pace that everything in my life would be better. I could be abunduntly more productive in my research with less time, my knowledge would compound exponentially, and with my newfound freetime I could -- take a break! This is the premise of speed reading courses which offer to double or triple your reading rate with no loss of comprehension. Sign me up! This almost sounds like the golden secret to productivity. The thing is speed reading might be a myth.
+I've spent a long time thinking that if I could learn to read at a faster pace that everything in my life would be better. I could be abunduntly more productive in my research with less time, my knowledge would compound exponentially, and with my newfound freetime I could -- take a break! This is the premise of speed reading courses which offer to double or triple your reading rate with no loss of comprehension. Sign me up! This almost sounds like the golden secret to productivity. The thing is speed reading is a myth. Now this is where I should make myself clear, skipping through a text to read only the important parts of a text, is not how speed reading is defined. Speed reading is using techniques such learning to see larger areas of print, eliminating subvocalization (i.e., pronouncing words to oneself), using the index finger to guide the eyes down the page, among others.
 
-In [The Road to Excellence](https://www.amazon.com/Road-Excellence-Acquisition-Performance-Sciences/dp/0805822321), Wagner and Stanovich show that "experts at speed reading can scan text rapidly but without any understanding of the content. The only validated aspect of the speed readers' skill is the high speed of tuming pages."
+In [The Road to Excellence](https://www.amazon.com/Road-Excellence-Acquisition-Performance-Sciences/dp/0805822321), Wagner and Stanovich show that "experts at speed reading can scan text rapidly but without any understanding of the content. The only validated aspect of the speed readers' skill is the high speed of turning pages."
 
 Wagner and Stanovich then write about a study that attempted to recruit the best speedreaders in the world:
 
@@ -49,7 +49,7 @@ upper bound estimate of 900 words per minute, but only when the speed
 readers knew that their rate was being measured and that their comprehension
 would not be tested.
 
-The reading rates for the four groups ranged from 250 to 450 words per minute. Approximately, average or just a bit quicker.
+The reading rates for the four groups ranged from 250 to 450 words per minute. Approximately, average or just a bit better.
 
 Case in point, Jamie Dimon, the CEO of JPMorgan Chase states he has [3 reading speeds](https://youtu.be/IyEadGANbgM?t=37m14s). Very fast, fast, and slow. Dimon reads very fast when he is reading something like a magazine article where he just skimming to see if there is something interesting, but when he is reading something complex, or something that requires a lot of thinking (like a journal article perhaps), Dimon reads very slow. Jamie Dimon does not speed read when what he is reading is important.
 

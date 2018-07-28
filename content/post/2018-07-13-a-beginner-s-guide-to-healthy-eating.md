@@ -39,7 +39,7 @@ Lastly, I am not going to blindly buy all my fruits and vegetables in my cart wi
 With all of this in place, I now present to you: 
 
 ## \~\*The Ultimate Shopping List\*\~
-  
+>  
   **Fruits**  
   Bananas  
   Apples  
@@ -50,20 +50,22 @@ With all of this in place, I now present to you:
   [Red and Purple Grapes](http://science.sciencemag.org/content/275/5297/218)  
   Stawberries  
   
-  
+>  
   **Berries**  
   Cranberries  
   Blue Berries  
   Black Berries  
   Avocado  
-  
+
+>    
   **Leafy Greens**  
   Spinach  
   Kale  
   Brussel Sprouts
   Green Peas 
   [Swiss Chard]  
-  
+ 
+>   
   **Vegetables**  
   Asparagus  
   Broccoli  
@@ -73,13 +75,15 @@ With all of this in place, I now present to you:
   Asparagus  
   Beans  
   Tofu  
-  
+  Chickpeas
+ 
+ >   
   **Nuts**  
   Walnuts  
   Almonds  
-  Chickpeas  
-  Seedss  
+  Seeds  
   
+  >  
   **Goodies**  
   Green Tea  
   Dark Chocolate (>60% cocoa)  
