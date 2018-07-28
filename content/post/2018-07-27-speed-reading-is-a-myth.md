@@ -6,8 +6,9 @@ slug: speed-reading-is-a-myth
 categories:
   - Blog
 tags:
-  - Speedreading
+  - Speed-Reading
   - Productivity
+  - Jamie-Dimon
 subtitle: ''
 description: ''
 image: ''
@@ -16,7 +17,7 @@ draft: no
 
 I've spent a long time thinking that if I could learn to read at a faster pace that everything in my life would be better. I could be abunduntly more productive in my research with less time, my knowledge would compound exponentially, and with my newfound freetime I could -- take a break! This is the premise of speed reading courses which offer to double or triple your reading rate with no loss of comprehension. Sign me up! This almost sounds like the golden secret to productivity. The thing is speed reading might be a myth.
 
-In the [Road to Excellence](https://www.amazon.com/Road-Excellence-Acquisition-Performance-Sciences/dp/0805822321), Wagner and Stanovich show that "experts at speed reading can scan text rapidly but without any understanding of the content. The only validated aspect of the speed readers' skill is the high speed of tuming pages."
+In [The Road to Excellence](https://www.amazon.com/Road-Excellence-Acquisition-Performance-Sciences/dp/0805822321), Wagner and Stanovich show that "experts at speed reading can scan text rapidly but without any understanding of the content. The only validated aspect of the speed readers' skill is the high speed of tuming pages."
 
 Wagner and Stanovich then write about a study that attempted to recruit the best speedreaders in the world:
 
