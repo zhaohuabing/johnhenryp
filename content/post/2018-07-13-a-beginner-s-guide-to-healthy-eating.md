@@ -46,13 +46,13 @@ With all of this in place, I now present to you:
 ## \~\*The Ultimate Shopping List\*\~
 >  
   **Fruits**  
-  Bananas (all year)    
+  Bananas (all year)  
+  Oranges (Jan - May)  
   Stawberries  (Mar - Aug)  
   [Red and Purple Grapes](http://science.sciencemag.org/content/275/5297/218)  (Jun - Nov)  
   Apples  (Jul - Oct)  
-  Pineapple  
-  Watermelon  
-  Oranges  
+  Pineapple (Mar - Nov)  
+  Watermelon (Jun - Sep)   
   Peaches  
 
   
@@ -82,11 +82,9 @@ With all of this in place, I now present to you:
   **Vegetables**  
   Broccoli  (Jan - May)  
   Asparagus  (Feb - Jun)  
-  Asparagus  (Mar - Jun)  
   Tomato  (Jun - Nov)  
   Garlic  
   Ginger  
-  Beans  
   Tofu  
 
  
@@ -109,3 +107,6 @@ With all of this in place, I now present to you:
 After a few weeks of following my own prescribed advice, I've been eating healthier than I ever have in my life. I don't feel all too different, but regardless healthy eating has become a source of confidence for me. With the healthy shopping list in hand, my next step is going to be *laminating my personal copy, and keep it inside of my reusable shopping bag which I always bring with me.* For me, I think this is going to be strong enough of a nudge to keep me purchasing healthier foods for myself. My next step is going to be figuring out what I can use these ingredients to cook in order to make a filling lunch that I can bring to work. I will post an update this post in about 6 months, after suitable experimentation.
 
 Lastly, I think this list was more of an intellectual exercise than anything else. It is true these are all of the foods that I found to be extremely healthy based on information posted online, but I doubt that the other fruits and vegetables should be thought of as lesser just because they didn't make it into the articles I cited. If for some reason you can't remember all the  foods listed -- just buy anything green, you'll probably end up ok.
+
+
+You can download the shopping list [here](/pdf/shopping_list.pdf).
