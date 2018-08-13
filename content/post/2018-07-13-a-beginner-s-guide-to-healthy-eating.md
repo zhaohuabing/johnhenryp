@@ -4,7 +4,7 @@ author: John-Henry
 date: '2018-08-13'
 slug: a-beginner-s-guide-to-healthy-eating
 description: 'A healthy eating guide from someone who doesn't know anything about food'
-draft: true
+draft: false
 categories:
   - Blog
 tags:
