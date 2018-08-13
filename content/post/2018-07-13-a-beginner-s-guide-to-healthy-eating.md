@@ -5,13 +5,15 @@ date: '2018-08-13'
 slug: a-beginner-s-guide-to-healthy-eating
 description: 'A healthy eating guide from someone who does not know anything about food'
 draft: no
-ToC: false
 categories:
   - Blog
 tags:
   - Health
   - Vegetables
   - Guides
+output:
+  blogdown::html_page:
+    toc: false
 ---
 
 ## Background
