@@ -3,8 +3,8 @@ title: Part 1 - A Beginner’s Guide to Healthy Eating (Creating a Shopping List
 author: John-Henry
 date: '2018-08-13'
 slug: a-beginner-s-guide-to-healthy-eating
-description: 'A healthy eating guide from someone who doesn't know anything about food'
-draft: false
+description: 'A healthy eating guide from someone who does not know anything about food'
+draft: no
 categories:
   - Blog
 tags:
