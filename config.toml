@@ -22,7 +22,7 @@ home = ["HTML", "RSS", "Algolia"]
   SEOTitle = ""
   description = "John-Henry Pezzuto's personal blog about productivity in everyday life"
   keyword = "John-Henry, Pezzuto, psychology, economics, productivity, organization, advice, applescript"
-  slogan = "inch by inch. row by row."
+  slogan = "inch by inch, row by row"
 
   image_404 = "img/404-bg.jpg"
   title_404 = ":("
