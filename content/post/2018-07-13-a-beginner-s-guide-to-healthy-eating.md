@@ -5,6 +5,7 @@ date: '2018-08-13'
 slug: a-beginner-s-guide-to-healthy-eating
 description: 'A healthy eating guide from someone who does not know anything about food'
 draft: no
+ToC: false
 categories:
   - Blog
 tags:
@@ -44,8 +45,10 @@ When purchasing it is generally recommended to follow your tenses. Is this broco
 With all of this in place, I now present to you: 
 
 ## \~\*The Ultimate Shopping List\*\~
->  
+
   **Fruits**  
+  
+> 
   Bananas (all year)  
   Oranges (Jan - May)  
   Stawberries  (Mar - Aug)  
@@ -56,21 +59,24 @@ With all of this in place, I now present to you:
   Peaches  
 
   
->  
   **Berries**  
+  
+> 
   Avocado  (Mar - Sep)  
   Blue Berries (May - Aug)  
   Black Berries (May - Aug)  
   Cranberries  (Sep - Dec)  
 
->
-  **[Legumes](https://upload.wikimedia.org/wikipedia/commons/e/e7/Various_legumes.jpg)**  
+  **[Legumes](https://upload.wikimedia.org/wikipedia/commons/e/e7/Various_legumes.jpg)** 
+  
+> 
   Green Peas (Jul - Sep)  
   [Lentils](https://upload.wikimedia.org/wikipedia/commons/f/f5/3_types_of_lentil.png)  
   Chickpeas  
 
->    
   **Leafy Greens**  
+  
+> 
   Kale  (Jan - Feb)  
   Brussel Sprouts (Jan - May)  
   [Swiss Chard](https://upload.wikimedia.org/wikipedia/commons/4/45/Chard_%28Beta_vulgaris_var_cicla%29.jpg)  (Jan - Oct)  
@@ -78,8 +84,9 @@ With all of this in place, I now present to you:
 
 
  
->   
   **Vegetables**  
+  
+> 
   Broccoli  (Jan - May)  
   Asparagus  (Feb - Jun)  
   Tomato  (Jun - Nov)  
@@ -88,14 +95,18 @@ With all of this in place, I now present to you:
   Tofu  
 
  
- >   
-  **Nuts**  
+ 
+  **Nuts** 
+  
+> 
   Walnuts  
   Almonds  
   Seeds  
   
-  >  
-  **Goodies**  
+ 
+  **Goodies** 
+  
+> 
   Green Tea  
   Dark Chocolate (>60% cocoa)  
   Coffee  
