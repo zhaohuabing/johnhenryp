@@ -11,6 +11,7 @@ tags:
   - Mac
   - Cursor
   - Cursorcerer
+  - Tech
 ---
 
 My mac used to hide the cursor by pressing F6 (fn F6 for those uninitiatied). Then one update, I don't know, Apple took that feature out? Anyway the best work around I found thus far was to download [Cursorcerer](http://doomlaser.com/cursorcerer-hide-your-cursor-at-will/), which is a freeware program which basically offers the same function with a couple extra features. 

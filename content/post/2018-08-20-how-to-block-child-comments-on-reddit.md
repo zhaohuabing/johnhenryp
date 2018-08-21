@@ -8,6 +8,7 @@ categories:
 tags:
   - Productivity
   - Reddit
+  - Tech
 subtitle: ''
 description: ''
 image: ''
@@ -19,7 +20,7 @@ draft: no
 In the spirit of digital minimalism, I found that by blocking the child comments on reddit, I find myself scrolling less. The way I did this was by right clicking [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm), clicking options, and then the my filters tab. I added the following line of code:
 
 > 
-  www.reddit.com##.noCtrlF.toggleChildren
+  `www.reddit.com##.noCtrlF.toggleChildren`
   
 This line stops the the "Show Child Comments" button from showing up.
 
