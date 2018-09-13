@@ -21,7 +21,7 @@ home = ["HTML", "RSS", "Algolia"]
   header_image = "img/IMG_0437.jpg"
   SEOTitle = ""
   description = "John-Henry Pezzuto's personal blog about productivity in everyday life"
-  keyword = "John-Henry, Pezzuto, psychology, economics, productivity, organization, advice, applescript"
+  keyword = "John-Henry, Pezzuto, psychology, economics, productivity, organization, advice"
   slogan = "inch by inch, row by row"
 
   image_404 = "img/404-bg.jpg"
@@ -39,7 +39,7 @@ home = ["HTML", "RSS", "Algolia"]
   algolia_apiKey = ""
 
   # Sidebar settings
-  sidebar_about_description = "I'm interested in using social norms to understand discrimination and create widespread change. Currently, I'm Betsy Paluck's Lab Manager at Princeton University"
+  sidebar_about_description = "Currently, I'm Betsy Levy Paluck's Lab Manager at Princeton University"
   sidebar_avatar = "img/IMG_1922.jpeg"      # use absolute URL, seeing it's used in both `/` and `/about/`
 
   featured_tags = true 
