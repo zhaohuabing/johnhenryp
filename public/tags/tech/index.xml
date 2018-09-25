@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Productivity on John-Henry Pezzuto</title>
-    <link>/tags/productivity/</link>
-    <description>Recent content in Productivity on John-Henry Pezzuto</description>
+    <title>Tech on John-Henry Pezzuto</title>
+    <link>/tags/tech/</link>
+    <description>Recent content in Tech on John-Henry Pezzuto</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 20 Aug 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -39,28 +39,6 @@ Note: I do this in addition using having my RES automatically hide all child com
       
       <guid>/post/how-to-make-facebook-so-boring-you-won-t-want-to-use-it/</guid>
       <description>Load Packages &amp;amp; Data library(tidyverse) library(psych) ## [1] 4  </description>
-    </item>
-    
-    <item>
-      <title>Speed Reading is a Myth</title>
-      <link>/post/speed-reading-is-a-myth/</link>
-      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/speed-reading-is-a-myth/</guid>
-      <description>I&amp;rsquo;ve spent a long time thinking that if I could learn to read at a faster pace that everything in my life would be better. I could be abunduntly more productive in my research with less time, my knowledge would compound exponentially, and with my newfound freetime I could &amp;ndash; take a break! This is the premise of speed reading courses which offer to double or triple your reading rate with no loss of comprehension.</description>
-    </item>
-    
-    <item>
-      <title>notes on writing</title>
-      <link>/post/notes-on-writing/</link>
-      <pubDate>Mon, 16 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/notes-on-writing/</guid>
-      <description>productivity in writing https://theresearchwhisperer.wordpress.com/2018/07/10/should-we-really-write-daily/ hese were: time blocking, artificial deadlines, seeking ‘flow’, incremental step setting, accountability structures and using ‘freewriting’ as an unblocking technique.
-abstract They expect to see the warrant and the contribution made clear
-TOC needs to be clear, totally clear.
-methods https://theresearchwhisperer.wordpress.com/2015/03/10/writing-research-methods/
-specify specifics. justify exactly why. explain how it brings you closer to what you&amp;rsquo;re trying to do. clear rationale why this analysis will achieve objective of project</description>
     </item>
     
     <item>

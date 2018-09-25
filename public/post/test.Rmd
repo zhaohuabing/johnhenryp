@@ -1,0 +1,36 @@
+---
+title: How to Make Facebook So Boring You Won’t Want to Use It
+author: John-Henry
+date: '2018-08-20'
+slug: how-to-make-facebook-so-boring-you-won-t-want-to-use-it
+
+categories:
+  - Blog
+tags:
+  - Productivity
+  - Facebook
+  - Tech
+subtitle: ''
+description: ''
+image: ''
+draft: no
+---
+
+## Load Packages & Data
+```{r setup, warning = FALSE, message = FALSE}
+library(tidyverse)
+library(psych)
+
+```
+
+```{r global_options, include=FALSE}
+rm(list=ls())
+select = dplyr::select
+theme_set(theme_minimal())
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, out.width = "8.5in")
+```
+
+```{r}
+2 + 2
+```
+
