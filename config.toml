@@ -18,7 +18,7 @@ home = ["HTML", "RSS", "Algolia"]
 
 
 [params]
-  header_image = "img/IMG_0437.jpg"
+  header_image = "img/Giorgio-Stefanoni-urban-geometries-3.jpg"
   SEOTitle = ""
   description = "John-Henry Pezzuto's personal blog about productivity in everyday life"
   keyword = "John-Henry, Pezzuto, psychology, economics, productivity, organization, advice"
