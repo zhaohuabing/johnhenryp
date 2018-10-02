@@ -13,7 +13,7 @@ tags:
 subtitle: ''
 description: ''
 image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpBix2eLjNJM7eYx12pyY_64oSunOjVVI43_MNiaDdgfRfm0M0'
-draft: yes
+draft: no
 ---
 
 When I lived at Chicago I was able to catch up Steve Levitt with a small group of students talk about his opinions on going to graduate school. His advice was tailored towards economics students, but I think other people will may find it valuable as well.
