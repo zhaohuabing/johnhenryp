@@ -11,7 +11,7 @@ tags:
   - Graduate-School
   - Notable-People
 subtitle: ''
-description: ''
+description: 'Becoming a data scientist is the single best path for success'
 image: 'https://i.kinja-img.com/gawker-media/image/upload/s--t5yL_uZF--/c_fill,fl_progressive,g_center,h_900,q_80,w_1600/iwr91apv70oache3txro.jpg'
 draft: no
 ---
