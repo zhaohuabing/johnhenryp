@@ -25,7 +25,7 @@ Facebook can be thought of as what as I see as three separate mediums, the __des
 
 ### The Mobile Version
 
-__1 Delete the Facebook App. __
+__1 Delete the Facebook App__
 
 I think this is the easiest step. In this step, you can still go to Facebook mobile website. It is less pretty than the app, but still entirely functional. I spent about several months at this stage. Scrolling from the mobile website becomes normal after awhile. This shouldn't be too tough.
 
@@ -63,10 +63,9 @@ __4 Block Notifications__
 
 In my opinion this is the step the requires the biggest jump, but is also the most rewarding. I used uBlock Origin to block notifications, and messages, and groups. I want to make clear that this will not affect the desktop messeager app, so you can still stay in touch with your friends, but your website experience will now become VERY limited. If you follow the correctly your Facebook banner should look like:
 
-
+![facebook](img/fb_banner.JPG)
 
 The code I added to uBlock to do this is:
-
 ```
 www.facebook.com###pagelet_reminders > ._1-ia > ._4-u8._20os._2tyk._1-ib._4-u2
 www.facebook.com##._cy6:nth-of-type(2)
@@ -83,7 +82,7 @@ Note: you can still log into messenger via the desktop app after deactivating. I
 
 ### Messenger
 
-__Log out. __
+__Log out__
 
 Some people might suggest deleting Facebook rather than deactivating. I didn't do this. I logged out of messenger, and that was enough for me.
 
