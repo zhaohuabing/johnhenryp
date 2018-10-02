@@ -13,13 +13,13 @@
         <hr class="hidden-sm hidden-xs">
         <h5>FEATURED TAGS</h5>
         <div class="tags">
-            {{ $featured_condition_size := .Site.Params.featured_condition_size }} 
+            {{ $featured_condition_size := .Site.Params.featured_condition_size }}
             {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-               {{ if gt (len $taxonomy.Pages) $featured_condition_size }} 
+               {{ if gt (len $taxonomy.Pages) $featured_condition_size }}
                     <a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}" title="{{ $name }}">
                         {{ $name }}
                     </a>
-               {{ end }} 
+               {{ end }}
             {{ end }}
         </div>
     </section>
@@ -27,7 +27,7 @@
 
     <!-- Short About -->
     <section class="visible-md visible-lg">
-        <hr><h5><a href="">ABOUT ME</a></h5> <!--about me page-->
+        <hr><h5><a href="johnhenryp.com/about">ABOUT ME</a></h5> <!--about me page-->
         <div class="short-about">
             {{ with .Site.Params.sidebar_avatar }}
             <img src="{{ . | absURL }}" />
@@ -36,7 +36,7 @@
                 <p>{{ . }}</p>
             {{ end }}
            <!-- SNS Link -->
-           <ul class="list-inline"> 
+           <ul class="list-inline">
                {{ if .Site.Params.social.rss }}
                <li>
                    <a href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title | default "" }}" >
