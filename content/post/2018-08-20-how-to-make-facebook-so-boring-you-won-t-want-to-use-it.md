@@ -63,7 +63,7 @@ __4 Block Notifications__
 
 In my opinion this is the step the requires the biggest jump, but is also the most rewarding. I used uBlock Origin to block notifications, and messages, and groups. I want to make clear that this will not affect the desktop messeager app, so you can still stay in touch with your friends, but your website experience will now become VERY limited. If you follow the correctly your Facebook banner should look like:
 
-![facebook](img/fb_banner.JPG)
+![facebook](/img/fb_banner.JPG)
 
 The code I added to uBlock to do this is:
 ```
