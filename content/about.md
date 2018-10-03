@@ -1,8 +1,13 @@
 ---
 title: About
 author: John-Henry
-date: '2018-7-10'
+date: '2018-10-02'
 slug: about
+categories: []
+tags: []
+subtitle: ''
+description: ''
+image: ''
 draft: no
 ---
 

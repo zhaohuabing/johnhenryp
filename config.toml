@@ -13,8 +13,8 @@ hasCJKLanguage = true
 home = ["HTML", "RSS", "Algolia"]
 
 [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "about"
+    url = "about"
 
 
 [params]
