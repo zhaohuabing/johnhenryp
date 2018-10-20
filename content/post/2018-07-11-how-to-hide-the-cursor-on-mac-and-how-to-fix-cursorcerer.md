@@ -3,6 +3,7 @@ title: How to Hide the Cursor on Mac and How to Fix Cursorcerer
 author: John-Henry
 date: '2018-07-11'
 slug: how-to-hide-the-cursor-on-mac-and-how-to-fix-cursorcerer
+draft: yes
 categories:
   - Blog
 tags:
