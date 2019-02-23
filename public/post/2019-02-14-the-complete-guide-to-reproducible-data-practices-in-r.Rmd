@@ -1,0 +1,77 @@
+---
+title: The Complete Guide to Reproducible Data Practices in R
+author: John-Henry
+date: '2019-02-14'
+slug: the-complete-guide-to-reproducible-data-practices-in-r
+categories:
+  - Blog
+tags:
+  - Rstats
+  - OpenScience
+subtitle: ''
+description: ''
+image: ''
+draft: yes
+---
+
+[Open science practices are on the rise](https://youtu.be/tK03lp47w-I). However I don't really think good coding practices are there yet. There are a few really [good](https://www.tidyverse.org/articles/2017/12/workflow-vs-script/) [guides](https://web.stanford.edu/~gentzkow/research/CodeAndData.pdf) on good workflow practices that I found especially helpful, but I didn't really find these modern or comprehensive (or entirely focused in R!). This is my attempt at such a guide.
+
+Before going further I do want to emphasize that it makes sense to post data and code to a place like [OSF](osf.io). Academics move institutions which causes links, people forget to renew personal websites. A place like OSF has their reputation on the line to keep these links absolute. Make it their problem not yours. [Uri Simonsohn also has a guide specifically about keeping website links alive for those interested](http://datacolada.org/34).
+
+
+## Managing Working Directory
+
+
+## Package Dependency
+As I told my lab 
+
+## Dynamic Documents
+I think the preparing APA Journal Articles ([papaja](https://github.com/crsh/papaja))package seems promising but at the time of writing, it's not totally there yet. 
+
+
+### Managing References
+
+When creating a dynamic document it makes sense to use a reference manager such as [Zotero](https://www.zotero.org/). Zotero is pretty easy to use and I won't get into it, but one thing I initially had trouble with was using it to make BibTex files.
+
+The problem is that Zotero defaults the citation key as "first author last name, title, year", which is just way too long to use on the fly. To make Zotero use shorter citation keys (such as "first author last name, year") Here is how you do it:
+
+1) [Download Better BibTeX for Zotero](https://retorque.re/zotero-better-bibtex/installation/)
+
+2) In the Zotero settings (⌘ I) make sure the citation key is set to "[auth:lower][year]"
+
+![](/img/reproducible-data/bbt1.png)
+
+3) You need to _update_ all of your previous references now. The way you do this is by selecting all (⌘ A) right clicking, and going down to the Better BibTeX menu.
+
+![](/img/reproducible-data/bbt2.png)
+
+
+### Misc Tips
+
+Lastly here are some troubles I ran into that that I couldn't immediately find answers to.
+
+* Stop papaja from double spacing your environment
+```
+\AtBeginEnvironment{tabular}{\singlespacing}
+```
+
+* Stargazer tables are tricky to rotate
+```
+---
+header-includes:
+  - \usepackage{rotating}
+---
+stargazer(…, float.env = "sidewaystable”) 
+```
+
+stargazer(…, float.env = "sidewaystable”)
+
+
+* Remove space papaja automatically adds between paragraphs
+```
+---
+header-includes:
+ - \setlength{\parskip}{0pt} # for no space between paragraphs
+---
+```
+
