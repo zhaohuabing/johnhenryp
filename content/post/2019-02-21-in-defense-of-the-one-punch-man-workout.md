@@ -11,7 +11,7 @@ tags:
   - One-Punch-Man
 subtitle: ''
 description: ''
-image: ''
+image: 'img/white-slab.png'
 draft: yes
 ---
 

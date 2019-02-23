@@ -14,7 +14,7 @@ tags:
   - Notable-People
 subtitle: ''
 description: '"My father was a fisherman"'
-image: 'https://i.ytimg.com/vi/vtIzMaLkCaM/maxresdefault.jpg'
+image: "img/white-slab.png"
 draft: no
 ---
 

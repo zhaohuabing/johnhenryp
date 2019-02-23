@@ -11,7 +11,7 @@ tags:
   - Mac
 subtitle: ''
 description: 'Automatically download wallpapers from the Internet'
-image: ''
+image: "img/white-slab.png"
 draft: yes
 ---
 

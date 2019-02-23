@@ -4,6 +4,7 @@ author: John-Henry
 date: '2018-07-11'
 slug: how-to-hide-the-cursor-on-mac-and-how-to-fix-cursorcerer
 draft: no
+image: "img/white-slab.png"
 categories:
   - Blog
 tags:

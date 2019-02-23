@@ -12,7 +12,7 @@ tags:
 subtitle: ''
 description: ''
 draft: yes
-image: ''
+image: "img/white-slab.png"
 ---
 
 ## productivity in writing

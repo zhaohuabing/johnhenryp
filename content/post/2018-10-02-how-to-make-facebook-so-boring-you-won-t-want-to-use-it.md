@@ -11,7 +11,7 @@ tags:
   - Tech
 subtitle: ''
 description: 'How to Make Facebook So Boring You Won’t Want to Use It'
-image: ''
+image: "img/white-slab.png"
 draft: no
 ---
 

@@ -11,7 +11,7 @@ tags:
   - Vocabulary
 subtitle: ''
 description: 'If words can change our thoughts, and thoughts can change our feelings. Then we should pick our words carefully'
-image: ''
+image: "img/white-slab.png"
 draft: no
 ---
 

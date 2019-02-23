@@ -4,7 +4,7 @@ author: "John-Henry"
 date: '2018-10-02'
 description: 'Black Box Warnings for Statistics Commonly Used in the Social Sciences'
 draft: yes
-image: ''
+image: "img/white-slab.png"
 slug: an-overview-of-statistics-for-the-science-sciences
 subtitle: ''
 tags:
