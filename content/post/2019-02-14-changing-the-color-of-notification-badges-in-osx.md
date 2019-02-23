@@ -21,9 +21,11 @@ However I'm not on Facebook. I am on OSX however, I feel like I check my message
 
 Whenever I get I message it looks like this:
 
+![message](/img/messages/notification.png)
+
 
 #### Get the to the location
-I quite like this. It's non-urgent, . Following [this guide](https://web.archive.org/web/20190214172228/https://forums.macrumors.com/threads/change-dock-icon-badges.1903323/) this is how I made the change.
+Following [this guide](https://web.archive.org/web/20190214172228/https://forums.macrumors.com/threads/change-dock-icon-badges.1903323/) this is how I made the change.
 
 
 Next open finder and click typle the key board shortcut `Shift ⌘ G`. to open the Go to folder: options. Go to
@@ -36,11 +38,17 @@ If you scroll down you'll find two relevant files. The `statuslabel.png` and the
 
 If you want to sidestep photo editing step, you can just take mine.
 
+statuslabel.png
+![statuslabel](/img/messages/statuslabel.png)
+
+
+statuslabel@2x.png
+![statuslabel2x](/img/messages/statuslabel@2x.png)
 
 
 #### Move the originals out of the way.
 
-We are almost done! Press `⌘ I` on one of the orignal files to and under the "Name & Extension" part see if it's editable.
+We are almost done! Press "⌘ I "on one of the orignal files to and under the "Name & Extension" part see if it's editable.
 
 If you are like me, you'll see they are not editable and this is where you find out your computer has System Integrity Protection (SIP) turned on. No worries!
 

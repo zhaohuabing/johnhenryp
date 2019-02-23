@@ -10,13 +10,13 @@ tags:
   - Productivity
   - Mac
 subtitle: ''
-description: ''
+description: 'Automatically download wallpapers from the Internet'
 image: ''
 draft: yes
 ---
 
 
-I made a pretty cool app using Automator for mac that downloads wallpapers from the internet, deletes the old ones, and shuffles the gives me a new image everyday. I based the design off [this thread from 2011](https://www.reddit.com/r/apple/comments/gk0g7/here_is_how_to_create_an_automator_app_that_will/). It makes me very happy and impressed when I open my computer each day! In this post I am going to walk you through how to make it, but I am also just going to mine at the bottom for anyone interested in the final outcome.
+I made a pretty cool app using Automator for mac that downloads wallpapers from the internet, deletes the old ones, and shuffles the gives me a new image everyday. I based the design off [this thread from 2011](https://www.reddit.com/r/apple/comments/gk0g7/here_is_how_to_create_an_automator_app_that_will/). It makes me very happy and impressed when I open my computer each day! In this post I am going to walk you through how to make it, and I am going to post screenshots of the final product at the bottom.
 
 
 
@@ -135,11 +135,23 @@ System Preference > Security & Privacy > Allow your new app to control your comp
 
 #### Add auto updating
 
-At this point you would want to automate . I actually don't understand Chron too well, but I've been doing well with the freeware [CronniX](). You will want to schedule the app to (I do mine everyday at 8pm). 
+At this point you would want to automate . I actually don't understand Chron too well, but I've been doing well with the freeware [CronniX](https://www.macupdate.com/app/mac/7486/cronnix). You will want to schedule the app to (I do mine everyday at 8pm). 
 
 I keep my app in my Applications folder. To run:
-
 ```
 open /Applications/wallpaper_app.app
 ```
+
+This should look like:
+![cronnix](/img/wallpaper_updates/cronnix.png)
+
+You will need to save and enter your password in order for this to work.
+
+#### Final Product
+
+If you've been following along you should end up with something like:
+
+![automator1](/img/wallpaper_updates/automator1.png)
+![automator2](/img/wallpaper_updates/automator2.png)
+![automator3](/img/wallpaper_updates/automator3.png)
 

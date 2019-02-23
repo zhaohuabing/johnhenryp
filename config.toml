@@ -1,5 +1,5 @@
 baseurl = "https://johnhenryp.com"
-title = "John-Henry Pezzuto"
+title = "ss"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -18,8 +18,8 @@ home = ["HTML", "RSS", "Algolia"]
 
 
 [params]
-  header_image = "img/pyramids.jpg"
-  SEOTitle = ""
+  #header_image = "img/pyramids.jpg"
+  SEOTitle = "s"
   description = "John-Henry Pezzuto's personal blog about productivity in everyday life"
   keyword = "John-Henry, Pezzuto, psychology, economics, productivity, organization, advice"
   slogan = "inch by inch"
@@ -72,6 +72,9 @@ home = ["HTML", "RSS", "Algolia"]
   [[params.bookmark_link]]
   title =  "Cal Newport"
   href =  "http://calnewport.com/blog/"
+  [[params.bookmark_link]]
+  title = "Jojo Tang"
+  href =  "https://numerairx.github.io/"
   [[params.bookmark_link]]
   title = "Al Turtle"
   href =  "http://www.alturtle.com/"
