@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Steve-Levitt on John-Henry Pezzuto</title>
+    <link>/tags/steve-levitt/</link>
+    <description>Recent content in Steve-Levitt on John-Henry Pezzuto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/steve-levitt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Steve Levitt’s Graduate School Advice</title>
+      <link>/post/steve-levitt-s-advice-about-graduate-school/</link>
+      <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/steve-levitt-s-advice-about-graduate-school/</guid>
+      <description>When I lived at Chicago I was able to catch up Steve Levitt with a small group of students talk about his opinions on going to graduate school. His advice was tailored towards economics students, but I think other people will may find it valuable as well.
+He started by saying that our presumption that being a professor at a top school is correct. Being a top professor is indeed a awesome job.</description>
+    </item>
+    
+  </channel>
+</rss>

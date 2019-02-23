@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><head>
+    <meta name="google-site-verification" content="9vIieCe-Qpd78QOmBl63rGtIVbhY6sYyuxX3j8XWBA4" />
+    <meta name="baidu-site-verification" content="LRrmH41lz7" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="Automatically download wallpapers from the Internet">
+    
+    <meta name="keyword"  content="John-Henry, Pezzuto, psychology, economics, productivity, organization, advice">
+    <link rel="shortcut icon" href="/img/faceimage.ico">
+    
+    <title>Mac App for New Wallpapers Everyday</title>
+
+    <link rel="canonical" href="/post/mac-app-for-new-wallpapers-everyday/">
+
+    <link rel="stylesheet" href="/css/iDisqus.min.css"/>
+	
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hux-blog.min.css">
+
+    
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
+    
+    <script src="/js/jquery.min.js"></script>
+    
+    
+    <script src="/js/bootstrap.min.js"></script>
+    
+    
+    <script src="/js/hux-blog.min.js"></script>
+</head>
+</head>
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="//">John-Henry Pezzuto</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="//">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/categories/blog">Blog</a>
+                    </li>
+                    
+                    <li>
+                        <a href="/categories/resume">Resume</a>
+                    </li>
+                    
+
+                    
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+
+<style type="text/css">
+    header.intro-header{
+        background-image: url('/img/pyramids.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                       
+                       <a class="tag" href="/tags/applescript" title="Applescript">
+                           Applescript
+                        </a>
+                        
+                       <a class="tag" href="/tags/productivity" title="Productivity">
+                           Productivity
+                        </a>
+                        
+                       <a class="tag" href="/tags/mac" title="Mac">
+                           Mac
+                        </a>
+                        
+                    </div>
+                    <h1>Mac App for New Wallpapers Everyday</h1>
+                    <h2 class="subheading"></h2>
+                    <span  class="meta">Posted by John-Henry on Tuesday, February 5, 2019
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+		
+                <header>
+                
+                </header>
+                
+		
+		
+
+<p>I made a pretty cool app using Automator for mac that downloads wallpapers from the internet, deletes the old ones, and shuffles the gives me a new image everyday. I based the design off <a href="https://www.reddit.com/r/apple/comments/gk0g7/here_is_how_to_create_an_automator_app_that_will/">this thread from 2011</a>. It makes me very happy and impressed when I open my computer each day! In this post I am going to walk you through how to make it, and I am going to post screenshots of the final product at the bottom.</p>
+
+<p>1) Open Automator -&gt; New Document -&gt; Application</p>
+
+<h3 id="make-sure-there-is-an-internet-connection">Make sure there is an Internet connection</h3>
+
+<p>2) Add a run Applescript block and add this code. The purpose of the step is to make sure the app is connected to the Internet and not to run otherwise</p>
+
+<pre><code>try
+	do shell script &quot;curl www.google.com&quot;
+on error
+	error number -128
+end try
+</code></pre>
+
+<h4 id="create-a-folder-for-the-downloaded-images-to-go">Create a folder for the downloaded images to go</h4>
+
+<p>3) Add a Run shell script block. I keep my images in a folder in a folder called in a folder called Reddit_Wallpapers. The purpose of this block is to make sure this folder always exists. You will need to change the path to fit your own desired location.</p>
+
+<pre><code>if [ -d /Users/jhap/Documents/Desktops/Reddit_Wallpapers ]   
+then 
+    echo &quot;dir present&quot;
+else
+    echo &quot;dir not present&quot;
+	  mkdir /Users/jhap/Documents/Desktops/Reddit_Wallpapers
+	
+fi
+</code></pre>
+
+<p>If you click the Run button of the upper right of the Automator window and then the results button of the shell block you will see whether or not the directory exists. If you the folder does not exist yet, it will be created.</p>
+
+<h4 id="empty-out-the-folder">Empty out the folder</h4>
+
+<p>4) Emptying the folder is an important to step to make sure your folder doesn&rsquo;t grow indefinitely. The touch command adds an empty file so that the rm will not fail even if the folder is empty. I use the rm command because I ddin&rsquo;t want my trash can filled with images</p>
+
+<pre><code>touch /Users/jhap/Documents/Desktops/Reddit_Wallpapers/empty.txt
+
+rm /Users/jhap/Documents/Desktops/Reddit_Wallpapers/*
+</code></pre>
+
+<h4 id="download-the-images">Download the images</h4>
+
+<p>5) Add &ldquo;Get specified URLS&rdquo; block. I get my wallpapers from feed://www.reddit.com/r/EarthPorn/.rss but obviously you could change this step to fit any continuously updating source of images or even multiple.</p>
+
+<p>6) Add a &ldquo;Get Link URLs from Articles&rdquo; block.</p>
+
+<p>7) Add a &ldquo;Filter URLs&rdquo; block where any of the follow conditions are true. &ldquo;Entire url&rdquo; &ldquo;ends with&rdquo; .jpg, and one more line &ldquo;Entire url&rdquo; &ldquo;ends with&rdquo; .png. You could of course add more photo types in this step.</p>
+
+<p>8) Download URLs</p>
+
+<h4 id="keep-only-the-high-quality-images">Keep only the high quality images</h4>
+
+<p>I think this is the step that makes my method really stand out.</p>
+
+<p>9) Add a Filter Finder Items  &ldquo;Any&rdquo; where &ldquo;Size&rdquo; &ldquo;is less than&rdquo; 1 &ldquo;MB&rdquo;. (Note I think you could pick a larger file size and still be pretty depending on how many sources you take your wallpapers from)</p>
+
+<p>10) Add a &ldquo;Run Shell Script&rdquo; block which will delete the small images</p>
+
+<pre><code>for f in &quot;$@&quot;
+do
+	rm &quot;$f&quot;
+done
+</code></pre>
+
+<h3 id="comprehension-check">Comprehension Check</h3>
+
+<p>If you click the run button in the upper right, the folder should propagate with new wallpapers.</p>
+
+<p>If you go to System Preferences &gt; Desktop &amp; Screen Saver &gt; and click your given folder at this stage you should be almost good to go! Make sure you &ldquo;Change Picture&rdquo; button is toggled on. I like to keep mine on &ldquo;change everyday&rdquo;, but that&rsquo;s just my personal preference.</p>
+
+<h4 id="refresh-the-change-wallpaper-button">Refresh the Change Wallpaper Button</h4>
+
+<p>With the original version of this app I kept running into a problem where the original file would get deleted and then my laptop wouldn&rsquo;t know what to do when I opened it the next day. The work around I use is to just toggle the change wallpapers button. There is probably a more elegant work around, but I don&rsquo;t know what it is.</p>
+
+<p>11) Add a &ldquo;Run Applescript&rdquo; block</p>
+
+<pre><code>tell application &quot;System Preferences&quot;
+	activate
+	set current pane to pane &quot;com.apple.preference.desktopscreeneffect&quot;
+end tell
+delay .5
+tell application &quot;System Events&quot;
+	tell process &quot;System Preferences&quot;
+		tell window &quot;Desktop &amp; Screen Saver&quot;
+			delay 0.3
+			tell tab group 1
+				click checkbox &quot;Change picture:&quot;
+				delay 0.3
+				click checkbox &quot;Change picture:&quot;
+			end tell
+		end tell
+	end tell
+end tell
+delay 0.3
+tell application &quot;System Preferences&quot; to quit
+</code></pre>
+
+<p>At this place if you save your app, and click on it, the folder to should fill with new wallpapers. Apple will probably give you a bunch of things to approve but</p>
+
+<p>System Preference &gt; Security &amp; Privacy &gt; Allow your new app to control your computer this won&rsquo;t happen again.</p>
+
+<h4 id="add-auto-updating">Add auto updating</h4>
+
+<p>At this point you would want to automate . I actually don&rsquo;t understand Chron too well, but I&rsquo;ve been doing well with the freeware <a href="https://www.macupdate.com/app/mac/7486/cronnix">CronniX</a>. You will want to schedule the app to (I do mine everyday at 8pm).</p>
+
+<p>I keep my app in my Applications folder. To run:</p>
+
+<pre><code>open /Applications/wallpaper_app.app
+</code></pre>
+
+<p>This should look like:
+<img src="/img/wallpaper_updates/cronnix.png" alt="cronnix" /></p>
+
+<p>You will need to save and enter your password in order for this to work.</p>
+
+<h4 id="final-product">Final Product</h4>
+
+<p>If you&rsquo;ve been following along you should end up with something like:</p>
+
+<p><img src="/img/wallpaper_updates/automator1.png" alt="automator1" />
+<img src="/img/wallpaper_updates/automator2.png" alt="automator2" />
+<img src="/img/wallpaper_updates/automator3.png" alt="automator3" /></p>
+
+
+                <hr>
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/post/the-complete-guide-to-reproducible-data-practices-in-r/" data-toggle="tooltip" data-placement="top" title="The Complete Guide to Reproducible Data Practices in R">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/post/redefining-the-vocabulary-of-everyday-life/" data-toggle="tooltip" data-placement="top" title="Redefining the Vocabulary of Everyday Life">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+            
+<div id="disqus-comment"></div>
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "johnhenryp" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+            </div>
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                    
+                    
+                       
+                            <a href="/tags/advice" title="Advice">
+                                Advice
+                            </a>
+                       
+                    
+                       
+                            <a href="/tags/applescript" title="Applescript">
+                                Applescript
+                            </a>
+                       
+                    
+                       
+                    
+                       
+                    
+                       
+                    
+                       
+                            <a href="/tags/facebook" title="Facebook">
+                                Facebook
+                            </a>
+                       
+                    
+                       
+                    
+                       
+                            <a href="/tags/guides" title="Guides">
+                                Guides
+                            </a>
+                       
+                    
+                       
+                            <a href="/tags/health" title="Health">
+                                Health
+                            </a>
+                       
+                    
+                       
+                    
+                       
+                    
+                       
+                            <a href="/tags/mac" title="Mac">
+                                Mac
+                            </a>
+                       
+                    
+                       
+                            <a href="/tags/notable-people" title="Notable-People">
+                                Notable-People
+                            </a>
+                       
+                    
+                       
+                    
+                       
+                    
+                       
+                    
+                       
+                            <a href="/tags/productivity" title="Productivity">
+                                Productivity
+                            </a>
+                       
+                    
+                       
+                    
+                       
+                    
+                       
+                    
+                       
+                    
+                       
+                    
+                       
+                    
+                       
+                            <a href="/tags/tech" title="Tech">
+                                Tech
+                            </a>
+                       
+                    
+                       
+                    
+                       
+                    
+                       
+                            <a href="/tags/writing" title="Writing">
+                                Writing
+                            </a>
+                       
+                    
+                    </div>
+                </section>
+
+                
+
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                   
+                   <li>
+                       <a href="" rel="alternate" type="application/rss+xml" title="John-Henry Pezzuto" >
+                           <span class="fa-stack fa-lg">
+                               <i class="fa fa-circle fa-stack-2x"></i>
+                               <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                           </span>
+                       </a>
+                   </li>
+                   
+                    
+                    
+                    
+                    <li>
+                        <a href="https://twitter.com/john_pezzuto">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+
+                    
+
+		    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/johnhenrypezzuto">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    
+                    
+                </ul>
+
+		<p class="copyright text-muted">
+                    Copyright &copy; John-Henry Pezzuto , 2019
+                    <br>
+                    <a href="https://github.com/zhaohuabing/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        async("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    async("https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<script>
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https'){
+       bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+      }
+      else{
+      bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+
+
+
+
+
+        
+
+
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-122353115-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+</body>
+</html>

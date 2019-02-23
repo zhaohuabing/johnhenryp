@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cursorcerer on John-Henry Pezzuto</title>
+    <link>/tags/cursorcerer/</link>
+    <description>Recent content in Cursorcerer on John-Henry Pezzuto</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 11 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/cursorcerer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Hide the Cursor on Mac and How to Fix Cursorcerer</title>
+      <link>/post/how-to-hide-the-cursor-on-mac-and-how-to-fix-cursorcerer/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/how-to-hide-the-cursor-on-mac-and-how-to-fix-cursorcerer/</guid>
+      <description>My mac used to hide the cursor by pressing F6 (fn F6 for those uninitiatied). Then one update, I don&amp;rsquo;t know, Apple took that feature out? Anyway the best work around I found thus far was to download Cursorcerer, which is a freeware program which basically offers the same function with a couple extra features.
+However, I noticed if I don&amp;rsquo;t use Cursorcerer for awhile it stops working. Because of this, I made an applescript that toggles it on and off which is much faster (and much less annoying) than going to my settings and toggling the Cursorcerer manually.</description>
+    </item>
+    
+  </channel>
+</rss>
