@@ -15,24 +15,28 @@ image: "img/white-slab.png"
 draft: no
 ---
 
-It took me a long time to quit Facebook -- years. I knew that I didn't particularly like most of my Facebook friends. I didn't have particularly pleasurable experiences on the website post high school, and I didn't particularly like updating my profile picture, but still I didn't want to delete my page. I've had it for years, and Facebook messenger is really helpful. In some sense the decision not to delete Facebook was out of my control. I was loyal to my friends, not Mark Zuckerburg, that is why I stayed, and I think that is why a lot of people stay. But eventually I drew the line. I began to find Facebook at a conceptual level to be really gross. Whereas billboards convert the open sky into advertisements, Facebook would send me advertisements in bed, so much so that data scientists would have some degree of knowledge about when [I sleep and when I wake up](https://www.theverge.com/2016/2/29/11132016/facebook-sleep-tracker-messenger-activity). I realized this is much bigger than me being lazy, but rather this is a war, for my mind and for my body. It was me versus the attention merchant, and I had no misconceptions that the person I was competing against had an Ivy League degree, knows better than to use the website himself and doesn't let his<sup>1</sup> kids use it. As a society, to fight back I think we need every chance we can get. This is what worked for me.
+It took me a long time to quit Facebook -- years. I knew that I didn't particularly like most of my Facebook friends. I didn't have particularly pleasurable experiences on the website post-high school, and most of all, I didn't particularly like updating my profile picture. Still I didn't want to delete my page, I had it for years, and Facebook messenger is really helpful. 
+
+In some sense I think I felt like the the decision not to delete Facebook was out of my control. I was loyal to my friends, not Mark Zuckerburg, that is why I stayed, and I think that is why a lot of people stay. But eventually I drew the line. I began to find Facebook at a conceptual level to be really gross. Whereas billboards convert the open sky into advertisements, Facebook would send me advertisements in bed, so much so that data scientists would have some degree of knowledge about when [I sleep and when I wake up](https://www.theverge.com/2016/2/29/11132016/facebook-sleep-tracker-messenger-activity). I realized this is much bigger than me being lazy, but rather this is a war, for my mind and for my body. It was me versus the attention merchant, and I had no misconceptions that the person I was competing against had an Ivy League degree, knows better than to use the website himself and doesn't let his<sup>1</sup> kids use it. As a society, to fight back I think we need every chance we can get. This is what worked for me.
 
 
 ## Plan of Attack
 
-Facebook can be thought of as what as I see as three separate mediums, the __desktop version__ of the site, the __mobile version__ of the site, and __messenger__. Of these three, messenger is likely the one adding the most value in your life by helping you keep in touch with friends around the world. I recommend that if you are taking a waning approach, messenger goes last if at all. If you want to keep messenger and but delete Facebook as a hybrid approach to social media, I think this option has a lot of value. This was what my originally considered doing. When giving up Facebook, I suggest by starting with the mobile version of the app.
+Facebook can be thought of as what as I see as three separate mediums, the __desktop version__ of the site, the __mobile version__ of the site, and __messenger__. Of these three, messenger is likely the one adding the most value in your life by helping you keep in touch with friends around the world. I recommend that if you are taking a waning approach, messenger goes last if at all. If you want to keep messenger and but delete Facebook as a hybrid approach to social media, I think this option has a lot of value. This was what I originally considered doing. When giving up Facebook, I suggest by starting with the mobile version of the app.
 
 
 ### The Mobile Version
 
 __1 Delete the Facebook App__
 
-I think this is the easiest step. In this step, you can still go to Facebook mobile website. It is less pretty than the app, but still entirely functional. I spent about several months at this stage. Scrolling from the mobile website becomes normal after awhile. This shouldn't be too tough.
+I think this is the easiest step. In this step, you can still go to Facebook mobile website via your browser. It is less pretty than the app, but still entirely functional. I spent about several months at this stage. Scrolling from the mobile website becomes normal after awhile. This shouldn't be too tough.
 
 
 __2 Block the Website on the Mobile__
 
-To do this, I used parental safety settings. (i.e. on an iPhone, Settings > General > Restrictions). I always knew my restriction passcode and resisted the urge to unlock it when using Facebook. If I needed to use Facebook in a moment, I could likely do whatever I needed from a friend's phone. There is never a non preventable case where you need to use Facebook alone. If you find this happening to you, ask your friends for their phone numbers. If you are tempted to unlock the parental settings I would recommend having a friend or sibling make up the passcode for you. I tried having someone else create a passcode after a relapse but personally, I found it to be too cumbersome because the parental controls blocked some regular websites I enjoyed. From this, I learned and still keep the parental controls on my phone on everyday. I have not relapsed since. Fill the Facebook void with another website or mobile game if you must. There are plenty of other companies scrambling for your attention.
+To do this, I used parental safety settings. (i.e. on an iPhone, Settings > General > Restrictions). I always knew my restriction passcode and resisted the urge to unlock it when to get on Facebook. If I needed to use Facebook in a moment, I could likely do whatever I needed from a friend's phone. One thing to remember is that there _likely never_ a non-preventable case where you need to use Facebook to get in touch with someone. If you find this happening to you, ask your friends for their phone numbers. There are other messaging apps available.
+
+If you are tempted to unlock the parental settings I would recommend having a friend or sibling make up the passcode for you. I tried having someone else create a passcode for me after a relapse but personally, I found it to be too cumbersome because the parental controls blocked some of the regular websites I enjoyed. From this, I learned and still keep the parental controls on my phone on everyday. I have not relapsed since. Fill the Facebook void with another website or mobile game if you must. There are plenty of other companies scrambling for your attention.
 
 __3 Delete the messenger app__
 
@@ -48,20 +52,20 @@ Quitting Facebook Desktop was multitudes harder for me. This meant giving up gra
 
 __1 Separate Messenger from the Desktop App__
 
-This step might be counter intuitive, but it is essential for a waning process. I highly recommend [messenger](https://fbmacmessenger.rsms.me/) which is a free, open-source Mac app. There is no cognitive cost associated for this step.
+This step might be counter intuitive, but it is essential for the waning process. I highly recommend [messenger](https://fbmacmessenger.rsms.me/) which is a free, open-source Mac app. There is no cognitive cost associated for this step.
 
 __2 Hinder Facebook With Chrome Apps__
 
-The next step for me was making Facebook more boring. I was on this step for about a year. I highly recommend [News Feed Eradicator](https://chrome.google.com/webstore/detail/news-feed-eradicator-for/fjcldmjmjhkklehbacihaiopjklihlgg) which will replace your feed with a lame quote, and [something to see who unfriends you](https://chrome.google.com/webstore/detail/news-feed-eradicator-for/fjcldmjmjhkklehbacihaiopjklihlgg) (I can't find the name of the extension I used). Before quitting, I often saw a lot of my friends deactivating who I didn't think of otherwise. I think it is very important to know that others are doing this too, because Facebook won't tell you otherwise. If you are the type of person who uses incognito mode like I am, I want to  emphasize that these extensions should be added to incognito mode too, 
+The next step for me was making Facebook more boring. I was on this step for about a year. I highly recommend [News Feed Eradicator](https://chrome.google.com/webstore/detail/news-feed-eradicator-for/fjcldmjmjhkklehbacihaiopjklihlgg) which will replace your feed with a lame quote, and [something to see who unfriends you](https://chrome.google.com/webstore/detail/who-deleted-me-unfriend-f/eiepnnbjenknnjgabbodaihlnkkpkgll) (I can't find the name of the extension I used, and I don't know exactly how it started, but regardless I found seeing all my friends deleting Facebook surprisingly informative). Before quitting, I often saw a lot of my friends deactivating who I didn't think of otherwise. I think it is very important to know that others are doing this too, because Facebook won't tell you otherwise. If you are the type of person who uses incognito mode like I am, I want to  emphasize that these extensions should be added to incognito mode too.
 
 
 __3 Add a Time Limit__
 
-The next step is to create an incentive to make sure you don't spend too long on the website. [My limit was 10 minutes with StayFocud](https://chrome.google.com/webstore/detail/stayfocusd/laankejkbhbdhmipfmgcngdelahlfoji?hl=en) I don't suggest adding this extension to incognito mode, as this may cause you to delete the extension. The purpose of this extension is for you to feel guilty when regularly browsing and be more cognizant of your time online, not so much to keep you off the website.
+The next step is to create an deterrent to make sure you don't spend too long on the website. [My limit was 10 minutes with StayFocud](https://chrome.google.com/webstore/detail/stayfocusd/laankejkbhbdhmipfmgcngdelahlfoji?hl=en) I don't suggest adding this extension to incognito mode, as this may cause you to delete the extension. The purpose of this extension is for you to feel guilty when regularly browsing and be more cognizant of your time online, not so much to keep you off the website.
 
 __4 Block Notifications__
 
-In my opinion this is the step the requires the biggest jump, but is also the most rewarding. I used uBlock Origin to block notifications, and messages, and groups. I want to make clear that this will not affect the desktop messenger app, so you can still stay in touch with your friends, but your website experience will now become VERY limited. If you follow the correctly your Facebook banner should look like:
+In my opinion this is the step the requires the biggest jump, but is also the most rewarding. I used uBlock Origin to block notifications, and messages, and groups. I want to make clear that this will not affect the desktop messenger app, so you can still stay in touch with your friends, but your website experience will now become VERY limited. If you follow correctly your Facebook banner should look like:
 
 ![facebook](/img/fb_banner.JPG)
 
@@ -77,14 +81,14 @@ www.facebook.com###appsNav
 
 __5 Deactivate__
 
-Note: you can still log into messenger via the desktop app after deactivating. I think this final step is sufficient for most people.
+When you're ready, it's time. Note: you can still log into messenger via the desktop app after deactivating. I think this final step is sufficient for most people.
 
 
 ### Messenger
 
 __Log out__
 
-Some people might suggest deleting Facebook rather than deactivating. I didn't do this. I logged out of messenger, and that was enough for me.
+Some people might suggest deleting Facebook rather than deactivating. I didn't do this. I logged out of messenger, and that was enough for me. I still think messanger is a valuable tool.
 
 
 

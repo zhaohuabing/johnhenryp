@@ -10,25 +10,29 @@ tags:
   - Notifications
   - Customization
 subtitle: ''
-description: ''
+description: 'Notifications don't need to be so urgent'
 image: "img/white-slab.png"
 draft: yes
 ---
 
-@@@ writes that after changed the notification label from blue to red, Facebook saw a dramatic uptick in useage. Red is the color of urgency. 
+Tristan Harris writes that after changed the notification label from blue to red, Facebook saw a dramatic uptick in useage. It is hypothesized because red is the color of urgency, the color red does a good job at hijacking our prehistoric brains into reacting quickly.
 
-However I'm not on Facebook. I am on OSX however, I feel like I check my messages too much. I did experiment turning off my message notifications full stop, but I found I started checking my messages even more out of curiosity. I recently changed my notifications to blue and I feel like this really helped.
+I'm not on Facebook. I am on OSX however, and I feel like I check my messages too much. I experimented turning off my message notifications full stop, but that didn't work for me. I found I started checking my messages even more because I was never sure if I had any or not. I recently changed my notifications to blue and I feel like this really helped.
 
-Whenever I get I message it looks like this:
+Whenever I get I message it now looks like this:
 
 ![message](/img/messages/notification.png)
 
+My guess is we'll see this feature becoming more common over time. For example, I see that Youtube uses blue dots now for subscription updates:
 
-#### Get the to the location
-Following [this guide](https://web.archive.org/web/20190214172228/https://forums.macrumors.com/threads/change-dock-icon-badges.1903323/) this is how I made the change.
+![](/post/2019-02-14-changing-the-color-of-notification-badges-in-osx_files/youtube-blue-dot.png)
 
 
-Next open finder and click typle the key board shortcut `Shift ⌘ G`. to open the Go to folder: options. Go to
+I used [this guide](https://web.archive.org/web/20190214172228/https://forums.macrumors.com/threads/change-dock-icon-badges.1903323/) to make the change on my mac:
+
+#### Get to the location
+
+Open finder and click typle the key board shortcut `Shift ⌘ G` to open the "Go to folder" options. Go to:
 ```
 /System/Library/CoreServices/Dock.app/Contents/Resources
 ```
@@ -63,7 +67,7 @@ csrutil disable
 Restart your computer, and you should be able to edit your files. (If my instructions are unclear you can see [here for a clearer guide](https://web.archive.org/web/20190214172910/https://www.howtogeek.com/230424/how-to-disable-system-integrity-protection-on-a-mac-and-why-you-shouldnt/).)
 
 
-Great! Now go back to the same file location as described about and edit original the file names so that they are `statuslabel.backup.png` and `statuslabel@2x.backup.png` respectively. You will proably need to type in your password. Copy in your newly edited files. 
+Great! Now go back to the same file location as described about and edit original the file names so that they are `statuslabel.backup.png` and `statuslabel@2x.backup.png` respectively. You will proably need to type in your password. Copy in your newly edited files, and give them the original titles statuslabel names. 
 
 Voila! You've now changed the color of the notification badges on your computer!
 

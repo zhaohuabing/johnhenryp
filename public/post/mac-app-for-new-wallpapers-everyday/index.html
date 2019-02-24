@@ -170,7 +170,14 @@
 		
 		
 
-<p>I made a pretty cool app using Automator for mac that downloads wallpapers from the internet, deletes the old ones, and shuffles the gives me a new image everyday. I based the design off <a href="https://www.reddit.com/r/apple/comments/gk0g7/here_is_how_to_create_an_automator_app_that_will/">this thread from 2011</a>. It makes me very happy and impressed when I open my computer each day! In this post I am going to walk you through how to make it, and I am going to post screenshots of the final product at the bottom.</p>
+<p>I made a pretty cool app using Automator for mac that downloads wallpapers from the internet, deletes the old ones, and shuffles the gives me a new image everyday. I based the design off <a href="https://www.reddit.com/r/apple/comments/gk0g7/here_is_how_to_create_an_automator_app_that_will/">this thread from 2011</a>, but I also included a lot of improvements. It makes me very happy and impressed when I open my computer each day! In this post, I am going to start with screenshots of the app, and annotate the steps afterward:</p>
+
+<p><img src="/post/2019-02-05-mac-app-for-new-wallpapers-everyday_files/automator-1.png" alt="" width="80%"/>
+<img src="/post/2019-02-05-mac-app-for-new-wallpapers-everyday_files/automator-2.png" alt="" width="80%"/>
+<img src="/post/2019-02-05-mac-app-for-new-wallpapers-everyday_files/automator-3.png" alt="" width="80%"/>
+<img src="/post/2019-02-05-mac-app-for-new-wallpapers-everyday_files/automator-4.png" alt="" width="80%"/></p>
+
+<p>Here is how it works:</p>
 
 <p>1) Open Automator -&gt; New Document -&gt; Application</p>
 
@@ -187,7 +194,7 @@ end try
 
 <h4 id="create-a-folder-for-the-downloaded-images-to-go">Create a folder for the downloaded images to go</h4>
 
-<p>3) Add a Run shell script block. I keep my images in a folder in a folder called in a folder called Reddit_Wallpapers. The purpose of this block is to make sure this folder always exists. You will need to change the path to fit your own desired location.</p>
+<p>3) Add a Run shell script block. I keep my images in a folder called Reddit_Wallpapers. The purpose of this block is to make sure this folder always exists. You will need to change the path to fit your own desired location.</p>
 
 <pre><code>if [ -d /Users/jhap/Documents/Desktops/Reddit_Wallpapers ]   
 then 
@@ -199,34 +206,50 @@ else
 fi
 </code></pre>
 
-<p>If you click the Run button of the upper right of the Automator window and then the results button of the shell block you will see whether or not the directory exists. If you the folder does not exist yet, it will be created.</p>
+<p>If you click the Run button of the upper right of the Automator window and then the results button of the shell block you will see whether or not the directory exists. If the folder does not exist yet, it will be created.</p>
 
 <h4 id="empty-out-the-folder">Empty out the folder</h4>
 
-<p>4) Emptying the folder is an important to step to make sure your folder doesn&rsquo;t grow indefinitely. The touch command adds an empty file so that the rm will not fail even if the folder is empty. I use the rm command because I ddin&rsquo;t want my trash can filled with images</p>
+<p>4) Get all the items with a &ldquo;Get Specified Finder items&rdquo; block. Add your folder.</p>
 
-<pre><code>touch /Users/jhap/Documents/Desktops/Reddit_Wallpapers/empty.txt
+<p>5) Emptying the folder is an important to step to make sure your folder doesn&rsquo;t grow indefinitely. The touch command adds an empty file so that the rm will not fail even if the folder is empty. The osascript gets the path current desktop image so it won&rsquo;t be deleted. With the original version of this app I kept running into a problem where the original file would get deleted and then my laptop wouldn&rsquo;t know what to do, this circumvents that issue.</p>
 
-rm /Users/jhap/Documents/Desktops/Reddit_Wallpapers/*
+<pre><code>touch /Users/jhap/Documents/Desktops/Reddit_Wallpapers/filename.txt
+
+osascript -e 'tell app &quot;finder&quot; to get posix path of (get desktop picture as alias)'
+</code></pre>
+
+<p>6) Add another Run Shell Script block. This one turns the path of the current desktop image into just the file name. Notice the &ldquo;pass inputs as arguments&rdquo; setting on the right.</p>
+
+<pre><code>basename &quot;$@&quot;
+</code></pre>
+
+<p>7) Add another Run Shell Script block. This block deletes everything except the current desktop image. I use the rm command because I didn&rsquo;t want my Trash to be filled with images. Notice the &ldquo;pass inputs as arguments&rdquo; setting on the right.</p>
+
+<pre><code>shopt -s extglob
+
+cd /Users/jhap/Documents/Desktops/Reddit_Wallpapers/
+
+rm -v !(&quot;$@&quot;)
 </code></pre>
 
 <h4 id="download-the-images">Download the images</h4>
 
-<p>5) Add &ldquo;Get specified URLS&rdquo; block. I get my wallpapers from feed://www.reddit.com/r/EarthPorn/.rss but obviously you could change this step to fit any continuously updating source of images or even multiple.</p>
+<p>8) Add &ldquo;Get specified URLS&rdquo; block. I get my wallpapers from <code>feed://www.reddit.com/r/EarthPorn/.rss</code> but obviously you could change this step to fit any continuously updating source of images or even multiple.</p>
 
-<p>6) Add a &ldquo;Get Link URLs from Articles&rdquo; block.</p>
+<p>9) Add a &ldquo;Get Link URLs from Articles&rdquo; block.</p>
 
-<p>7) Add a &ldquo;Filter URLs&rdquo; block where any of the follow conditions are true. &ldquo;Entire url&rdquo; &ldquo;ends with&rdquo; .jpg, and one more line &ldquo;Entire url&rdquo; &ldquo;ends with&rdquo; .png. You could of course add more photo types in this step.</p>
+<p>10) Add a &ldquo;Filter URLs&rdquo; block where any of the follow conditions are true. &ldquo;Entire url&rdquo; &ldquo;ends with&rdquo; .jpg, and one more line &ldquo;Entire url&rdquo; &ldquo;ends with&rdquo; .png. You could of course add more photo types in this step.</p>
 
-<p>8) Download URLs</p>
+<p>11) Download URLs to the folder.</p>
 
 <h4 id="keep-only-the-high-quality-images">Keep only the high quality images</h4>
 
 <p>I think this is the step that makes my method really stand out.</p>
 
-<p>9) Add a Filter Finder Items  &ldquo;Any&rdquo; where &ldquo;Size&rdquo; &ldquo;is less than&rdquo; 1 &ldquo;MB&rdquo;. (Note I think you could pick a larger file size and still be pretty depending on how many sources you take your wallpapers from)</p>
+<p>12) Add a Filter Finder Items  &ldquo;Any&rdquo; where &ldquo;Size&rdquo; &ldquo;is less than&rdquo; 1 &ldquo;MB&rdquo;. (Note I think you could pick a larger file size and still be pretty depending on how many sources you take your wallpapers from)</p>
 
-<p>10) Add a &ldquo;Run Shell Script&rdquo; block which will delete the small images</p>
+<p>13) Add a &ldquo;Run Shell Script&rdquo; block which will delete all the small images. Notice the &ldquo;pass inputs as arguments&rdquo; setting on the right.</p>
 
 <pre><code>for f in &quot;$@&quot;
 do
@@ -240,40 +263,13 @@ done
 
 <p>If you go to System Preferences &gt; Desktop &amp; Screen Saver &gt; and click your given folder at this stage you should be almost good to go! Make sure you &ldquo;Change Picture&rdquo; button is toggled on. I like to keep mine on &ldquo;change everyday&rdquo;, but that&rsquo;s just my personal preference.</p>
 
-<h4 id="refresh-the-change-wallpaper-button">Refresh the Change Wallpaper Button</h4>
+<p>At this place if you save your app, and click on it, the folder to should fill with new wallpapers. Apple will probably give you a bunch of things to approve. To stop this click approve a lot, or go to:</p>
 
-<p>With the original version of this app I kept running into a problem where the original file would get deleted and then my laptop wouldn&rsquo;t know what to do when I opened it the next day. The work around I use is to just toggle the change wallpapers button. There is probably a more elegant work around, but I don&rsquo;t know what it is.</p>
-
-<p>11) Add a &ldquo;Run Applescript&rdquo; block</p>
-
-<pre><code>tell application &quot;System Preferences&quot;
-	activate
-	set current pane to pane &quot;com.apple.preference.desktopscreeneffect&quot;
-end tell
-delay .5
-tell application &quot;System Events&quot;
-	tell process &quot;System Preferences&quot;
-		tell window &quot;Desktop &amp; Screen Saver&quot;
-			delay 0.3
-			tell tab group 1
-				click checkbox &quot;Change picture:&quot;
-				delay 0.3
-				click checkbox &quot;Change picture:&quot;
-			end tell
-		end tell
-	end tell
-end tell
-delay 0.3
-tell application &quot;System Preferences&quot; to quit
-</code></pre>
-
-<p>At this place if you save your app, and click on it, the folder to should fill with new wallpapers. Apple will probably give you a bunch of things to approve but</p>
-
-<p>System Preference &gt; Security &amp; Privacy &gt; Allow your new app to control your computer this won&rsquo;t happen again.</p>
+<p>System Preference &gt; Security &amp; Privacy &gt; Allow your new app to control your computer, and this won&rsquo;t happen again.</p>
 
 <h4 id="add-auto-updating">Add auto updating</h4>
 
-<p>At this point you would want to automate . I actually don&rsquo;t understand Chron too well, but I&rsquo;ve been doing well with the freeware <a href="https://www.macupdate.com/app/mac/7486/cronnix">CronniX</a>. You will want to schedule the app to (I do mine everyday at 8pm).</p>
+<p>At this point you would want to automate and put your app on a timed schedule. I actually don&rsquo;t understand Chron too well, but I&rsquo;ve been doing well with the freeware <a href="https://www.macupdate.com/app/mac/7486/cronnix">CronniX</a> which does it for me. I have my app scheduled to work everyday at 8pm.</p>
 
 <p>I keep my app in my Applications folder. To run:</p>
 
@@ -284,14 +280,6 @@ tell application &quot;System Preferences&quot; to quit
 <img src="/img/wallpaper_updates/cronnix.png" alt="cronnix" /></p>
 
 <p>You will need to save and enter your password in order for this to work.</p>
-
-<h4 id="final-product">Final Product</h4>
-
-<p>If you&rsquo;ve been following along you should end up with something like:</p>
-
-<p><img src="/img/wallpaper_updates/automator1.png" alt="automator1" />
-<img src="/img/wallpaper_updates/automator2.png" alt="automator2" />
-<img src="/img/wallpaper_updates/automator3.png" alt="automator3" /></p>
 
 
                 <hr>
@@ -367,10 +355,6 @@ tell application &quot;System Preferences&quot; to quit
                     
                        
                     
-                       
-                            <a href="/tags/facebook" title="Facebook">
-                                Facebook
-                            </a>
                        
                     
                        

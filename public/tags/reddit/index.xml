@@ -17,10 +17,10 @@
       <pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/how-to-block-child-comments-on-reddit/</guid>
-      <description>In the spirit of digital minimalism, I found that by blocking the child comments on reddit, I find myself scrolling less. The way I did this was by right clicking uBlock Origin, clicking options, and then the my filters tab. I added the following line of code:
+      <description>In the spirit of digital minimalism, I found that by blocking the child comments on reddit, I find myself scrolling less. The way I did this was by right clicking uBlock Origin, clicking options, and then the &amp;ldquo;my filters&amp;rdquo; tab. I added the following line of code:
  www.reddit.com##.noCtrlF.toggleChildren
  This line stops the the &amp;ldquo;Show Child Comments&amp;rdquo; button from showing up.
-Note: I do this in addition using having my RES automatically hide all child comments.</description>
+Note: I do this in addition to having my RES automatically hide all child comments.</description>
     </item>
     
   </channel>

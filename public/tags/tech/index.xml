@@ -17,7 +17,8 @@
       <pubDate>Tue, 02 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/how-to-make-facebook-so-boring-you-won-t-want-to-use-it/</guid>
-      <description>It took me a long time to quit Facebook &amp;ndash; years. I knew that I didn&amp;rsquo;t particularly like most of my Facebook friends. I didn&amp;rsquo;t have particularly pleasurable experiences on the website post high school, and I didn&amp;rsquo;t particularly like updating my profile picture, but still I didn&amp;rsquo;t want to delete my page. I&amp;rsquo;ve had it for years, and Facebook messenger is really helpful. In some sense the decision not to delete Facebook was out of my control.</description>
+      <description>It took me a long time to quit Facebook &amp;ndash; years. I knew that I didn&amp;rsquo;t particularly like most of my Facebook friends. I didn&amp;rsquo;t have particularly pleasurable experiences on the website post-high school, and most of all, I didn&amp;rsquo;t particularly like updating my profile picture. Still I didn&amp;rsquo;t want to delete my page, I had it for years, and Facebook messenger is really helpful.
+In some sense I think I felt like the the decision not to delete Facebook was out of my control.</description>
     </item>
     
     <item>
@@ -26,19 +27,10 @@
       <pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/how-to-block-child-comments-on-reddit/</guid>
-      <description>In the spirit of digital minimalism, I found that by blocking the child comments on reddit, I find myself scrolling less. The way I did this was by right clicking uBlock Origin, clicking options, and then the my filters tab. I added the following line of code:
+      <description>In the spirit of digital minimalism, I found that by blocking the child comments on reddit, I find myself scrolling less. The way I did this was by right clicking uBlock Origin, clicking options, and then the &amp;ldquo;my filters&amp;rdquo; tab. I added the following line of code:
  www.reddit.com##.noCtrlF.toggleChildren
  This line stops the the &amp;ldquo;Show Child Comments&amp;rdquo; button from showing up.
-Note: I do this in addition using having my RES automatically hide all child comments.</description>
-    </item>
-    
-    <item>
-      <title>How to Make Facebook So Boring You Won’t Want to Use It</title>
-      <link>/post/how-to-make-facebook-so-boring-you-won-t-want-to-use-it/</link>
-      <pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/how-to-make-facebook-so-boring-you-won-t-want-to-use-it/</guid>
-      <description>Load Packages &amp;amp; Data library(tidyverse) library(psych) ## [1] 4  </description>
+Note: I do this in addition to having my RES automatically hide all child comments.</description>
     </item>
     
     <item>
