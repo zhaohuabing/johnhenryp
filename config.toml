@@ -13,8 +13,8 @@ hasCJKLanguage = true
 home = ["HTML", "RSS", "Algolia"]
 
 [[menu.main]]
-    name = "about"
-    url = "about"
+    name = "/about"
+    url = "/about"
 
 
 [params]
@@ -24,7 +24,7 @@ home = ["HTML", "RSS", "Algolia"]
   keyword = "John-Henry, Pezzuto, psychology, economics, productivity, organization, advice"
   slogan = "inch by inch"
 
-  image_404 = "img/404-bg.jpg"
+  image_404 = "img/chairman-meow.jpeg"
   title_404 = ":("
 
   # leancloud storage for page view counter
