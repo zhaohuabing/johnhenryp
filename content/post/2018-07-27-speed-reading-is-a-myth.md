@@ -10,7 +10,7 @@ tags:
   - Productivity
   - Jamie-Dimon
 subtitle: ''
-description: 'The only validated aspect of the speed readersU+00027 skill is the high speed of turning pages'
+description: 'The only validated aspect of the speed reader skill is the high speed of turning pages'
 image: "img/white-slab.png"
 draft: no
 ---
