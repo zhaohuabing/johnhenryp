@@ -1,2 +1,2 @@
-options(blogdown.ext = ".md", blogdown.author = "John-Henry", category = "Blog")
+options(blogdown.ext = ".md", blogdown.author = "John-Henry")
 
