@@ -1,4 +1,4 @@
-
+content/post/drafts
 public/.DS_Store
 public/2017/11/03/hello-world/index.html
 public/2017/11/04/istio-install_and_example/index.html
@@ -74,7 +74,7 @@ public/index.html
 public/index.xml
 public/js/bootstrap.js
 public/js/bootstrap.min.js
-public/js/eac.min.json
+public/js/eac.
 public/js/fitvids.js
 public/js/hux-blog.js
 public/js/hux-blog.min.js
