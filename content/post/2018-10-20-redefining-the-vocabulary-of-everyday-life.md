@@ -10,7 +10,7 @@ tags:
   - Guides
   - Vocabulary
 subtitle: ''
-description: 'If words can change our thoughts, and thoughts can change our feelings. Then we should pick our words carefully'
+description: 'If words can change our thoughts, and thoughts can change our feelings, then we should pick our words carefully'
 image: "img/white-slab.png"
 draft: no
 ---
