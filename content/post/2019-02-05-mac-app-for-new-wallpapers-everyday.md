@@ -12,7 +12,7 @@ tags:
 subtitle: ''
 description: 'Automatically download wallpapers from the Internet'
 image: "img/white-slab.png"
-draft: yes
+draft: no
 ---
 
 

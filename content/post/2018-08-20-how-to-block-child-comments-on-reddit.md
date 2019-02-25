@@ -9,7 +9,6 @@ tags:
   - Productivity
   - Reddit
   - Tech
-
 description: 'Keep Reddit interesting and helpful, but not wasting too much time'
 image: "img/white-slab.png"
 draft: no

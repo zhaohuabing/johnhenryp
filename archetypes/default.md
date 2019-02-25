@@ -7,5 +7,6 @@ author:      ""
 image:       "img/white-slab.png"
 draft:       true
 tags:        ["tag1", "tag2"]
-categories:  ["Tech" ]
+categories:
+  - Blog
 ---
