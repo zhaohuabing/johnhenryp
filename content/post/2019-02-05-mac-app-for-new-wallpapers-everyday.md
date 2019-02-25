@@ -1,7 +1,7 @@
 ---
 title: Mac App for New Wallpapers Everyday
 author: John-Henry
-date: '2019-02-05'
+date: '2019-02-24'
 slug: mac-app-for-new-wallpapers-everyday
 categories:
   - Blog
