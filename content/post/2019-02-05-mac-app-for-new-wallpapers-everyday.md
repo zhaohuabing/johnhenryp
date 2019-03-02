@@ -46,12 +46,12 @@ end try
 3) Add a Run shell script block. I keep my images in a folder called Reddit_Wallpapers. The purpose of this block is to make sure this folder always exists. You will need to change the path to fit your own desired location.
 
 ```
-if [ -d /Users/jhap/Documents/Desktops/Reddit_Wallpapers ]   
+if [ -d ~/Documents/Desktops/Reddit_Wallpapers ]   
 then 
     echo "dir present"
 else
     echo "dir not present"
-	  mkdir /Users/jhap/Documents/Desktops/Reddit_Wallpapers
+	  mkdir ~/Documents/Desktops/Reddit_Wallpapers
 	
 fi
 ```
@@ -65,7 +65,7 @@ If you click the Run button of the upper right of the Automator window and then 
 5) Emptying the folder is an important to step to make sure your folder doesn't grow indefinitely. The touch command adds an empty file so that the rm will not fail even if the folder is empty. The osascript gets the path current desktop image so it won't be deleted. With the original version of this app I kept running into a problem where the original file would get deleted and then my laptop wouldn't know what to do, this circumvents that issue.
 
 ```
-touch /Users/jhap/Documents/Desktops/Reddit_Wallpapers/filename.txt
+touch ~/Documents/Desktops/Reddit_Wallpapers/filename.txt
 
 osascript -e 'tell app "finder" to get posix path of (get desktop picture as alias)'
 ```
@@ -79,7 +79,7 @@ basename "$@"
 ```
 shopt -s extglob
 
-cd /Users/jhap/Documents/Desktops/Reddit_Wallpapers/
+cd ~/Documents/Desktops/Reddit_Wallpapers/
 
 rm -v !("$@")
 ```
