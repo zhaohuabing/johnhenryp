@@ -38,7 +38,7 @@ Open finder and click type the key board shortcut `Shift ⌘ G` to open the "Go 
 ```
 
 #### Copy and edit the files
-If you scroll down you'll find two relevant files. The `statuslabel.png` and the `statuslabel@2x.png`. Make a copy of these files onto your desktop and edit them however you wish. Personally, I had no experience editing images before this but I ended up using [Pixlr](https://pixlr.com/x/) a free online photo editing tool. Your goal should be to make both images the same (I didn't do this step so well, so my image are marginally different, but in practice, I've never noticed any issues).
+If you scroll down you'll find two relevant files. The `statuslabel.png` and the `statuslabel@2x.png`. Make a copy of these files onto your desktop and edit them however you wish. Personally, I had no experience editing images before this but I ended up using [Pixlr](https://pixlr.com/x/) a free online photo editing tool. Your goal should be to make both images the same (I didn't do this step so well, so my images are actually marginally different, but in practice, I've never noticed any issues).
 
 If you want to sidestep photo editing step, you can just take mine.
 
